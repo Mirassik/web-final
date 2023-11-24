@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+        <div class="logo">
+            <img src="img/logo (1).jpg" alt="Logo" width="100px">
+        </div>
+        <div class="nav_info">
+            <a href="index.html" id="home">About us</a>
+            <a href="index2.html">Services</a>
+            <a href="index4.html">Our works</a>
+            <a href="index5.html">Booking</a>
+        </div>
+        <div class="contact">
+            <a href="index3.html">
+                <button type="button" class="btn btn-outline-light" style="width: 140px;">Contact</button>
+            </a>
+        </div>
+    </header>
+    <hr class="line">
+
+    <h1 class="Services">Services</h1>
+    <h3 class="ser">At the bottom of the site you can calculate the cost of the required service by clicking on the buttons.</h3>
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="img/pal1.jpg" class="card1_img" alt="Card Image" width="100%" height="225">
+                  <div class="card-body">
+                    <p class="card-text"><b>Polishing</b> your car helps retain the original paint cover by removing stains and other paint defects.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <button type="button" class="btn btn-outline-light1" onclick="addToTotal(350)" style="width: 100px;">350$</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/dvi.jpg" class="card2_img" alt="Card Image" width="100%" height="225">
+                <div class="card-body">
+                  <p class="card-text">Maintenance of the engine compartment: This service includes deep cleaning and maintenance of
+                    the engine compartment of your car. Detailers will remove dirt, dust and fat deposits.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-outline-light1" onclick="addToTotal(320)" style="width: 100px;">320$</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/wash.jpg" class="card3_img" alt="Card Image" width="100%" height="225">
+                <div class="card-body">
+                  <p class="card-text">Everything about proper comprehensive car washing: washing the fenders, removing bitumen stains, cleaning the interior and engine, drying the body.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-outline-light1" onclick="addToTotal(180)" style="width: 100px;">180$</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/shum.jpeg" class="card4_img" alt="Card Image" width="100%" height="225">
+                <div class="card-body">
+                  <p class="card-text">Car noise insulation is isolation from the noise of vibration and noise-loaded surfaces of the body, such as doors, wheel arches, interior floor and trunk.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-outline-light1" onclick="addToTotal(280)" style="width: 100px;">280$</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/tint.jpg" class="card5_img" alt="Card Image" width="100%" height="225">
+                <div class="card-body">
+                  <p class="card-text">Glass tinting is the process of applying a thin layer of a special film to the glass surface in order 
+                    to reduce the penetration of sunlight and reduce thermal radiation into the interior of a car or room.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-outline-light1" onclick="addToTotal(220)" style="width: 100px;">220$</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/him.png" class="card6_img" alt="Card Image" width="100%" height="225">
+                <div class="card-body">
+                  <p class="card-text">Dry cleaning of the interior - removal of dust, stains, odors and various contaminants from upholstery,
+                     carpets and other interior surfaces, ensuring freshness, cleanliness and improved appearance of the car.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-outline-light1" onclick="addToTotal(150)" style="width: 100px;">150$$</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/pok.png" class="card7_img" alt="Card Image" width="100%" height="225">
+                <div class="card-body">
+                  <p class="card-text">Painting a car is a process in which a colorful coating is applied to its external surfaces
+                     to protect against corrosion and improve the appearance. Includes sanding, applying primer, base paint and
+                      protective varnish.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-outline-light1" onclick="addToTotal(600)" style="width: 100px;">600$</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/tun.jpg" class="card8_img" alt="Card Image" width="100%" height="225">
+                <div class="card-body">
+                  <p class="card-text">Car tuning is a change to improve the appearance or technical characteristics in
+                     order to create a unique style and increase productivity.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-outline-light1" onclick="addToTotal(560)" style="width: 100px;">560$</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/zam.jpg" class="card9_img" alt="Card Image" width="100%" height="225">
+                <div class="card-body">
+                  <p class="card-text">Oil change is a procedure for updating the engine oil in the car engine 
+                    to maintain its efficient operation and reduce wear.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-outline-light1" onclick="addToTotal(440)" style="width: 100px;">440$</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ras">
+        <h1>Cost calculation</h1>
+      </div>
+
+      <div id="priceOutput">Total price: $0</div>
+
+      <div class="reset_Button">
+      <button id="resetButton" type="button" onclick="resetTotal()" class="btn btn-danger">Reset total cost</button>
+      </div>
+
+</body>
+<script src="script2.js"></script>
+
+</html>

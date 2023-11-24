@@ -1,0 +1,111 @@
+body {
+    background-image: url('img/black.jpg');
+    background-size: cover;
+    background-color: #000;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.nav_info {
+    padding-top: 40px;
+
+}
+
+.nav_info a {
+    margin: 20px;
+    text-decoration: None;
+    color: #ababab;
+}
+
+.nav_info a:hover {
+    color: #fff;
+}
+
+.contact {
+    padding-top: 35px;
+}
+
+.btn-outline-light1{
+    border-radius: 12px 3px 20px 3px;
+    width: 240px;
+    height: 70px;
+    background-color: #ababab00;
+    border-width: 1px;
+    border-color: #fff;
+    color: #fff;
+}
+
+.home{
+    position: relative;
+    top: 50px;
+    left: 40px; 
+    padding: 0px;
+}
+
+.text_home h1{
+    font-size: 160px;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ececec;
+}
+
+.text_home h4{
+    color: #9f9f9f;
+    width: 1000px;
+    padding-bottom: 30px;
+}
+
+.btn-outline-light:hover{
+    background-color: #9f9f9f00;
+    color: rgb(255, 170, 0);
+}
+
+.line {
+    border-top: 1px solid rgb(185, 181, 181);
+    margin-top: 0px;
+    margin-left: 210px;
+    width: 1070px;
+
+}
+
+.about_us{
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 1000px;
+}
+
+.b{
+    font-size: 35px;
+    color: #fff;
+}
+
+.ob_text{
+    font-size: 30px;
+    color: #969393;
+}
+
+.Ab_head{
+    margin-top: 500px;
+    margin-left: 410px;
+    font-size: 60px;
+    color:rgb(255, 218, 149);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}

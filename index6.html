@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Суммирование цен по кнопкам</title>
+    <style>
+        #priceOutput {
+            font-size: 24px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .price-button {
+            font-size: 16px;
+            margin: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Суммирование цен по кнопкам</h1>
+
+    <div>
+        <button class="price-button" onclick="addToTotal(10)">Товар 1: $10</button>
+        <button class="price-button" onclick="addToTotal(20)">Товар 2: $20</button>
+        <button class="price-button" onclick="addToTotal(30)">Товар 3: $30</button>
+    </div>
+
+    <div id="priceOutput">Общая цена: $0</div>
+
+    <script>
+        // Инициализируем общую сумму
+        var total = 0;
+
+        function addToTotal(price) {
+            // Добавляем цену к общей сумме
+            total += price;
+
+            // Получаем элемент вывода общей цены
+            var priceOutputElement = document.getElementById('priceOutput');
+
+            // Обновляем содержимое вывода общей цены
+            priceOutputElement.textContent = 'Общая цена: $' + total;
+        }
+    </script>
+
+</body>
+</html>

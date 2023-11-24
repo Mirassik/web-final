@@ -1,0 +1,77 @@
+body{
+    background-color: #000;
+    height: 800px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+.nav_info {
+    padding-top: 40px;
+
+}
+
+.nav_info a {
+    margin: 20px;
+    text-decoration: None;
+    color: #ababab;
+}
+
+.nav_info a:hover {
+    color: #fff;
+}
+
+.btn-outline-light:hover{
+    background-color: #9f9f9f00;
+    color: rgb(255, 170, 0);
+}
+
+.contact{
+    padding-top: 35px;
+}
+
+.line {
+    border-top: 1px solid rgb(185, 181, 181);
+    margin-top: 0px;
+    margin-left: 210px;
+    width: 1070px;
+    margin-bottom: 70px;
+
+}
+
+.mb-3{
+    width: 500px;
+    margin-left: 500px;
+}
+
+.konch{
+    margin-left: 500px;
+}
+
+.form-label{
+    color: #fff;
+}
+
+.rech h1{
+    font-size: 40px;
+    color: #4be8ae;
+    margin-left: 200px;
+    width: 1200px;
+    font-weight: 300;
+}
+
+.rech h2{
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+    margin-left: 200px;
+    width: 800px;
+}
+
+.rech{
+    margin-bottom: 60px;
+}
